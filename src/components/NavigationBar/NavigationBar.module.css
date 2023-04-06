@@ -1,0 +1,68 @@
+#icon {
+  width: 15.8rem;
+}
+
+.icon-block {
+  flex: 1;
+}
+
+.main-nav-list li {
+  display: inline-block;
+  text-decoration: none;
+  font-size: 1.6rem;
+  text-align: center;
+  margin-left: 1.6rem;
+}
+
+.main-nav {
+  flex: 3;
+}
+.header-grid {
+  display: flex;
+  align-items: center;
+}
+
+button {
+  background-color: transparent;
+  border-radius: 0.8rem;
+  font-size: 1.6rem;
+  cursor: pointer;
+  border: 0.1rem solid #010123;
+  gap: 0.8rem;
+  /* display: inline-flex; */
+  color: #010123;
+  font-weight: 500;
+  line-height: 1.38;
+  padding: 1.25rem 3.2rem 1.25rem 3.2rem;
+  text-decoration: none;
+}
+
+.button-content {
+  position: relative;
+}
+
+button .arrow {
+  position: absolute;
+  transition: all 0.3s;
+  opacity: 0;
+  right: 0;
+}
+
+button .text {
+  display: inline-block;
+  transition: all 0.3s;
+}
+
+button:hover .text {
+  transform: translateX(-10%);
+}
+
+button:hover .arrow {
+  opacity: 1;
+  float: inline-end;
+  transform: translateX(60%);
+}
+
+header {
+  padding: 2rem;
+}
