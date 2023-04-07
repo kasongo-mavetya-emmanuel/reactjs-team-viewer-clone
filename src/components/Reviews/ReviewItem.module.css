@@ -1,0 +1,17 @@
+.icon-container {
+  margin-bottom: 0.8rem;
+  text-align: center;
+}
+
+.rating-container {
+  margin-bottom: 0.8rem;
+  text-align: center;
+}
+
+.number-container {
+  text-align: center;
+}
+
+.review-container:not(last-child) {
+  border-right: 1px solid black;
+}
