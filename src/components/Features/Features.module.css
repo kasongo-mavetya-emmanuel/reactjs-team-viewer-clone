@@ -1,0 +1,29 @@
+.features-section-container {
+  padding: 4.8rem;
+}
+
+.features-grid-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.left-side-grid {
+  padding-top: 3.6rem;
+}
+
+.right-side-grid {
+  margin-top: 100vh;
+  padding-left: 14.4rem;
+  padding-right: 3.6rem;
+}
+
+.right-side-grid ul {
+  list-style: none;
+}
+
+.fixed-position {
+  position: sticky;
+  left: 0;
+  top: 0;
+  height: 100vh;
+}

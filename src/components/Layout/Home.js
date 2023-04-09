@@ -3,6 +3,7 @@ import NavigationBar from "../NavigationBar/NavigationBar";
 import Hero from "../Hero/Hero";
 import Reviews from "../Reviews/Reviews";
 import Benefits from "../Benefits/Benefits";
+import Features from "../Features/Features";
 
 const Home = () => {
   return (
@@ -11,6 +12,7 @@ const Home = () => {
       <Hero />
       <Reviews />
       <Benefits />
+      <Features />
     </div>
   );
 };
