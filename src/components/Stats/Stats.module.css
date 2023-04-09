@@ -1,0 +1,10 @@
+.stats-section-container {
+  padding: 6.4rem;
+  background-color: #010123;
+}
+
+.stats-grid {
+  display: grid;
+  margin-top: 10rem;
+  grid-template-columns: repeat(3, 1fr);
+}

@@ -7,7 +7,7 @@ const H3Title = function(props) {
         fontSize: "1.4rem",
         fontWeight: "700",
         textTransform: "uppercase",
-        color: "white",
+        color: ` ${props.color || "#fff"}`,
         marginBottom: "3rem",
         lineHeight: "1.14",
       }}
