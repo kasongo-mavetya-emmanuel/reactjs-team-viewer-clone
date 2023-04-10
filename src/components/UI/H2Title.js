@@ -1,7 +1,6 @@
 import React from "react";
 
 const H2Title = (props) => {
-  console.log(props.color);
   return (
     <h2
       style={{

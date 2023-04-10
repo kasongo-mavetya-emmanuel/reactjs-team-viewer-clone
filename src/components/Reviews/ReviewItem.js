@@ -3,7 +3,6 @@ import { AiTwotoneStar, AiOutlineStar, FaStarHalf } from "react-icons/ai";
 import classes from "./ReviewItem.module.css";
 
 const ReviewItem = (props) => {
-  console.log(props.rating);
   const rating = props.rating;
   return (
     <div className={classes["review-container"]}>
