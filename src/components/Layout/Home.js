@@ -5,6 +5,7 @@ import Reviews from "../Reviews/Reviews";
 import Benefits from "../Benefits/Benefits";
 import Features from "../Features/Features";
 import Stats from "../Stats/Stats";
+import Awards from "../Awards/Awards";
 
 const Home = () => {
   return (
@@ -15,6 +16,7 @@ const Home = () => {
       <Benefits />
       <Features />
       <Stats />
+      <Awards />
     </div>
   );
 };

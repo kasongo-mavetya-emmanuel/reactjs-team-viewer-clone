@@ -2,7 +2,6 @@ import React, { useEffect, useRef, useState } from "react";
 import StatsItem from "./StatItem";
 import H2Title from "../UI/H2Title";
 import classes from "./Stats.module.css";
-import { useInView } from "react-intersection-observer";
 import Container from "../UI/Container";
 
 const Stats = () => {
