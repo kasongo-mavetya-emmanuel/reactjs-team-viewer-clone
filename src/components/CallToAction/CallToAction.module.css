@@ -1,0 +1,17 @@
+.cto-section-container {
+  padding: 16rem;
+}
+
+.cto-section-container p {
+  margin-bottom: 2.4rem;
+}
+
+.cto-section-container {
+  text-align: center;
+}
+
+.cto-button {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 1.2rem;
+}

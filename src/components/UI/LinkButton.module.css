@@ -1,0 +1,16 @@
+.link-button {
+  font-size: 1.6rem;
+  font-weight: 600;
+  color: #010123;
+  text-decoration: none;
+}
+
+.link-button span {
+  display: inline-block;
+  transform: translateX(0%);
+  transition: all 0.3s ease-out;
+}
+
+.link-button:hover span {
+  transform: translateX(50%);
+}
