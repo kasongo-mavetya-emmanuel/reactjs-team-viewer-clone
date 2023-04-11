@@ -1,0 +1,52 @@
+.sponsor-one {
+  background-image: url("../../assets/sponsorships/teamviewer-sponsorshop-machester-united.jpg");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  transition: background-size 2s ease-in;
+}
+
+.sponsor-two {
+  background-image: url("../../assets/sponsorships/teamviewer-sponsorship-mercedes-amg-petronas-f1.jpg");
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+
+.sponsor-two {
+  width: 100%;
+}
+
+.sponsor-two img {
+  width: 20rem !important;
+  height: auto;
+}
+
+.sponsorships-section-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0;
+}
+
+.sponsor-header1 img,
+.sponsor-header2 img {
+  width: auto;
+  height: 5.6rem;
+}
+
+.sponsor-header1,
+.sponsor-header2 {
+  width: 56rem;
+}
+
+.sponsor-one,
+.sponsor-two {
+  height: 100vh;
+  padding: 5.6rem 14rem;
+  transition: background-size 0.7s ease-in-out;
+  cursor: pointer;
+}
+
+.sponsor-one:hover,
+.sponsor-two:hover {
+  background-size: 102%;
+}

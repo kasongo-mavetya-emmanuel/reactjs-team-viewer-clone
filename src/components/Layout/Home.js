@@ -7,6 +7,7 @@ import Features from "../Features/Features";
 import Stats from "../Stats/Stats";
 import Awards from "../Awards/Awards";
 import CallToAction from "../CallToAction/CallToAction";
+import SponsorShips from "../SponsorShips/SponsorShips";
 
 const Home = () => {
   return (
@@ -19,6 +20,7 @@ const Home = () => {
       <Stats />
       <Awards />
       <CallToAction />
+      <SponsorShips />
     </div>
   );
 };
