@@ -1,0 +1,10 @@
+.other-products-section {
+  padding: 10rem;
+}
+
+.other-products-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: 30rem 30rem;
+  grid-gap: 2.4rem;
+}
