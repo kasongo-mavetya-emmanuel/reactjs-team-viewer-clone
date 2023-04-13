@@ -15,8 +15,6 @@ const OtherProductItem = (props) => {
             height="40px"
             x="0px"
             y="0px"
-            // width="110px"
-            // height="110px"
           >
             <style type="text/css">{`.st0{fill:#050A52;}`}</style>
             <path
