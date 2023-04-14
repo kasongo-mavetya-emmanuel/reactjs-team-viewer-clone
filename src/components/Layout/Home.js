@@ -11,6 +11,7 @@ import SponsorShips from "../SponsorShips/SponsorShips";
 import OtherProducts from "../OtherProducts/OtherProducts";
 import Testimonials from "../Testimanials/Testimonials";
 import Patners from "../Patners/Patners";
+import Contact from "../Contact/Contact";
 
 const Home = () => {
   return (
@@ -27,6 +28,7 @@ const Home = () => {
       <OtherProducts />
       <Testimonials />
       <Patners />
+      <Contact />
     </div>
   );
 };

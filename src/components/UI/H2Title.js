@@ -4,7 +4,7 @@ const H2Title = (props) => {
   return (
     <h2
       style={{
-        fontSize: "4rem",
+        fontSize: "4.8rem",
         color: `${props.color || "#010123"}`,
         fontWeight: "400",
         lineHeight: "1.3",

@@ -1,0 +1,19 @@
+.contact-section {
+  text-align: center;
+  padding-bottom: 4.8rem;
+}
+
+.contact-section p {
+  margin-bottom: 2.4rem;
+}
+
+.contact-button {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 1.2rem;
+}
+
+.contact-header {
+  max-width: 90rem;
+  margin: 0 auto;
+}
