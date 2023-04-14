@@ -1,0 +1,14 @@
+.social-media-item {
+  display: inline-block;
+  padding: 0.8rem 0.8rem;
+  border-radius: 0.8rem;
+  background-color: #1a405f;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.social-media-item img {
+  width: 2.4rem;
+  height: auto;
+}
