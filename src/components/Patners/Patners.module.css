@@ -1,0 +1,14 @@
+.patners-grid {
+  margin-top: 9.4rem;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 2.4rem;
+}
+
+.patners-section {
+  padding: 14rem;
+}
+
+.patner-title-container {
+  text-align: center;
+}
