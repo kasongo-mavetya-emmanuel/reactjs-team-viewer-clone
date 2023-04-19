@@ -1,5 +1,6 @@
 import React from "react";
 import classes from "./TestimonialItem.module.css";
+import { FaArrowRight } from "react-icons/fa";
 
 const TestimonialItem = (props) => {
   return (
@@ -14,7 +15,11 @@ const TestimonialItem = (props) => {
         <div className={classes["icon-container"]}>
           <img src={props.icon} />
         </div>
-        <a>&rarr;</a>
+        <div className={classes["testimonial-action"]}>
+          <div className={classes["arrow-button"]}>
+            <FaArrowRight size={"1.8rem"} style={{ verticalAlign: "middle" }} />
+          </div>
+        </div>
       </div>
       <p>{props.description}</p>
     </div>

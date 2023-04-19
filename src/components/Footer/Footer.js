@@ -22,7 +22,12 @@ const Footer = () => {
               <LinkButton
                 text={
                   <>
-                    <TfiWorld /> Change Region <IoIosArrowDown />
+                    <TfiWorld
+                      size={"2.4rem"}
+                      style={{ verticalAlign: "middle" }}
+                    />{" "}
+                    Change Region{" "}
+                    <IoIosArrowDown style={{ verticalAlign: "middle" }} />
                   </>
                 }
                 color={"#fff"}

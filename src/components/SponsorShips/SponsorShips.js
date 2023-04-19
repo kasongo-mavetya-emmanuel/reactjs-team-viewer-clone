@@ -27,7 +27,7 @@ const SponsorShips = () => {
       },
       {
         root: null,
-        threshold: [0.4, 0.5, 0.6, 0.7, 0.8, 0.9, 1],
+        threshold: [0, 0.1, 0.2, 0.3, 0.4, 0.5, 0.6, 0.7, 0.8, 0.9, 1],
         rootMargin: "50px",
       }
     );
@@ -38,10 +38,20 @@ const SponsorShips = () => {
   return (
     <section className={classes["sponsorships-section-container"]}>
       <figure
-        style={{ width: `${100 * intersectionRatio}%` }}
+        style={{
+          width: `${intersectionRatio >= 0.6 ? 100 * intersectionRatio : 60}%`,
+          transition: "width 0.5s ease-in",
+        }}
         className={classes["sponsor-one"]}
       >
-        <div ref={sponsorRef} className={classes["sponsor-header1"]}>
+        <div
+          ref={sponsorRef}
+          style={{
+            opacity: `${1 * intersectionRatio}`,
+            transition: "opacity 0.5s ease-in",
+          }}
+          className={classes["sponsor-header1"]}
+        >
           <img src={machester}></img>
           <H2Title
             title={

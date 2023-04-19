@@ -12,8 +12,10 @@ const PatnerItem = (props) => {
           <H3Title title={props.title} color={"rgba(0, 0, 0, 0.6)"} />
           <p>{props.description}</p>
         </div>
-        <div>
-          <FaArrowRight />
+        <div className={classes["patner-action"]}>
+          <div className={classes["arrow-button"]}>
+            <FaArrowRight size={"1.8rem"} style={{ verticalAlign: "middle" }} />
+          </div>
         </div>
       </div>
     </div>

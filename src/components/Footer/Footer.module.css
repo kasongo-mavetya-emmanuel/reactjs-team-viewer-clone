@@ -21,14 +21,14 @@
 
 .logo-container {
   display: flex;
-  gap: 1.4rem;
+  gap: 3.6rem;
   flex-direction: column;
   align-self: start;
 }
 
 .logo-container img {
   display: inline-block;
-  width: 70%;
+  width: 60%;
 }
 .grid-links {
   display: grid;

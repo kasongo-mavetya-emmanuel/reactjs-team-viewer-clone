@@ -36,3 +36,18 @@
 .product-action {
   text-align: right;
 }
+
+.arrow-button {
+  display: inline-block;
+  padding: 1.2rem 1.2rem;
+  border-radius: 100rem;
+  transition: all 0.3s ease-in-out;
+}
+
+.product-item:hover .arrow-button {
+  display: inline-block;
+  padding: 1.2rem 1.2rem;
+  background-color: #010123;
+  border-radius: 100rem;
+  color: #fff;
+}

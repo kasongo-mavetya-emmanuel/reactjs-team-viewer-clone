@@ -1,5 +1,6 @@
 import React from "react";
 import { FaAngleDown } from "react-icons/fa";
+import { IconContext } from "react-icons";
 import classes from "./NavigationBar.module.css";
 import Container from "../UI/Container";
 
@@ -73,20 +74,24 @@ const NavigationBar = () => {
           </div>
 
           <nav className={`${classes["main-nav"]}`}>
-            <ul className={`${classes["main-nav-list"]}`}>
-              <li>
-                Products & solution <FaAngleDown />
-              </li>
-              <li>
-                Resources <FaAngleDown />
-              </li>
-              <li>
-                Patner <FaAngleDown />
-              </li>
-              <li>
-                Pricing <FaAngleDown />
-              </li>
-            </ul>
+            <IconContext.Provider
+              value={{ style: { verticalAlign: "middle" } }}
+            >
+              <ul className={`${classes["main-nav-list"]}`}>
+                <li>
+                  Products & solution <FaAngleDown />
+                </li>
+                <li>
+                  Resources <FaAngleDown />
+                </li>
+                <li>
+                  Patner <FaAngleDown />
+                </li>
+                <li>
+                  Pricing <FaAngleDown />
+                </li>
+              </ul>
+            </IconContext.Provider>
           </nav>
           <button>
             <div className={classes["button-content"]}>

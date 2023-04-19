@@ -39,7 +39,9 @@ const OtherProductItem = (props) => {
       <div className={classes["body-item"]}>
         <p>{props.description}</p>
         <div className={classes["product-action"]}>
-          <FaArrowRight />
+          <div className={classes["arrow-button"]}>
+            <FaArrowRight size={"1.8rem"} />
+          </div>
         </div>
       </div>
     </div>
