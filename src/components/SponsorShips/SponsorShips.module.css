@@ -50,3 +50,48 @@
 .sponsor-two:hover {
   background-size: 102%;
 }
+
+@media (max-width: 75em) {
+  .sponsorships-section-container {
+    display: block;
+  }
+  .sponsor-one,
+  .sponsor-two {
+    padding: 5.6rem 3.6rem;
+  }
+}
+
+@media (max-width: 56.25em) {
+  .sponsorships-section-container {
+    display: block;
+  }
+  .sponsor-one {
+    padding: 3.6rem 2.4rem;
+    background-size: cover;
+    height: auto;
+  }
+  .sponsor-two {
+    padding: 3.6rem 2.4rem;
+    padding-bottom: 4.8rem;
+    background-size: cover;
+    height: auto;
+  }
+
+  .sponsor-header1 img {
+    width: auto;
+    height: 3.6rem;
+  }
+  .sponsor-header2 img {
+    width: auto;
+    height: 2.4rem;
+  }
+}
+
+@media (max-width: 37.5em) {
+  .sponsor-header1 {
+    width: 100%;
+  }
+  .sponsor-header2 {
+    width: 100%;
+  }
+}
