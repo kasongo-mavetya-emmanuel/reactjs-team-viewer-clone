@@ -1,9 +1,8 @@
 import React from "react";
+import classes from "./Container.module.css";
 
 const Container = (props) => {
-  return (
-    <div style={{ maxWidth: "130rem", margin: "auto" }}>{props.children}</div>
-  );
+  return <div className={classes["wrapper"]}>{props.children}</div>;
 };
 
 export default Container;

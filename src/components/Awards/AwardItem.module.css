@@ -10,3 +10,15 @@
 .award-item p {
   align-self: center;
 }
+
+@media (max-width: 75em) {
+}
+
+@media (max-width: 56.25em) {
+  .award-item {
+    margin-bottom: 2.4rem;
+  }
+}
+
+@media (max-width: 37.5em) {
+}

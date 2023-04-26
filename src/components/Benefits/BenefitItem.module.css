@@ -25,3 +25,19 @@
 .benefit-item {
   margin-bottom: 10rem;
 }
+
+@media (max-width: 75em) {
+}
+
+@media (max-width: 56.25em) {
+  .benefit-container img {
+    width: 100%;
+    height: auto;
+  }
+  .benefit-container p {
+    margin-bottom: 2.4rem;
+  }
+}
+
+@media (max-width: 37.5em) {
+}

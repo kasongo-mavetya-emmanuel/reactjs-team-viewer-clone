@@ -27,3 +27,27 @@
   top: 0;
   height: 100vh;
 }
+.tablet-features-container {
+  display: none;
+}
+
+@media (max-width: 75em) {
+}
+
+@media (max-width: 56.25em) {
+  .tablet-features-container {
+    display: block;
+  }
+  .tablet-features-container ul {
+    list-style: none;
+  }
+  .features-grid-container {
+    display: none;
+  }
+  .features-section-container {
+    padding: 0rem;
+  }
+}
+
+@media (max-width: 37.5em) {
+}

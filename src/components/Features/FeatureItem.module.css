@@ -1,3 +1,15 @@
 .list-item {
   margin-bottom: 11.2rem;
 }
+
+@media (max-width: 75em) {
+}
+
+@media (max-width: 56.25em) {
+  .list-item {
+    margin-bottom: 2.4rem;
+  }
+}
+
+@media (max-width: 37.5em) {
+}

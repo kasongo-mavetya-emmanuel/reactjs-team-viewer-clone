@@ -15,3 +15,18 @@
 .review-container:not(last-child) {
   border-right: 1px solid black;
 }
+
+@media (max-width: 75em) {
+}
+
+@media (max-width: 56.25em) {
+}
+
+@media (max-width: 37.5em) {
+  .review-container:first-child {
+    border-left: 1px solid black;
+  }
+  .review-container:nth-child(3) {
+    border-left: 1px solid black;
+  }
+}

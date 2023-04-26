@@ -9,3 +9,15 @@
   column-gap: 2.4rem;
   grid-template-columns: repeat(3, 1fr);
 }
+
+@media (max-width: 75em) {
+}
+
+@media (max-width: 56.25em) {
+  .awards-grid-container {
+    display: block;
+  }
+}
+
+@media (max-width: 37.5em) {
+}

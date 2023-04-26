@@ -3,3 +3,17 @@
   color: #fff;
   margin-top: -2.4rem;
 }
+
+@media (max-width: 75em) {
+}
+
+@media (max-width: 56.25em) {
+  .stat-item p {
+    font-size: 7.2rem;
+    color: #fff;
+    margin-bottom: 2.4rem;
+  }
+}
+
+@media (max-width: 37.5em) {
+}

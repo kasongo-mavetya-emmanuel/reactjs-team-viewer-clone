@@ -10,3 +10,15 @@
   margin-top: 10rem;
   grid-template-columns: repeat(3, 1fr);
 }
+
+@media (max-width: 75em) {
+}
+
+@media (max-width: 56.25em) {
+  .stats-grid {
+    display: block;
+  }
+}
+
+@media (max-width: 37.5em) {
+}

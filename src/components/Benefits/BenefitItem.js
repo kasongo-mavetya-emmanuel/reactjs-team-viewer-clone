@@ -1,5 +1,6 @@
 import React from "react";
 import classes from "./BenefitItem.module.css";
+
 const BenefitItem = React.forwardRef((props, ref) => {
   return (
     <li ref={ref} className={classes["benefit-item"]}>
@@ -7,6 +8,8 @@ const BenefitItem = React.forwardRef((props, ref) => {
         <h3>{props.title}</h3>
         <h4>{props.subTitle}</h4>
         <p>{props.description}</p>
+
+        {props.source && <img src={props.source} />}
       </div>
     </li>
   );
