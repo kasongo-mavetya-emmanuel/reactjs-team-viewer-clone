@@ -8,3 +8,33 @@
   grid-template-rows: 30rem 30rem;
   grid-gap: 2.4rem;
 }
+
+@media (max-width: 75em) {
+  .other-products-grid {
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 30rem);
+  }
+  .other-products-section {
+    padding: 5rem;
+  }
+}
+
+@media (max-width: 56.25em) {
+  .other-products-grid {
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(4, 30rem);
+  }
+  .other-products-section {
+    padding: 5rem 3rem;
+  }
+}
+
+@media (max-width: 37.5em) {
+  .other-products-grid {
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: auto repeat(7, 30rem);
+  }
+  .other-products-section {
+    padding: 5rem 3rem;
+  }
+}
