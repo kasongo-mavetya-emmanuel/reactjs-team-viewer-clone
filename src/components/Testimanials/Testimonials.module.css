@@ -13,3 +13,20 @@
 
 .testimonials-section {
 }
+
+@media (max-width: 75em) {
+  .testimonials-grid {
+    grid-template-columns: repeat(2, 1fr);
+    height: 100vh;
+  }
+}
+
+@media (max-width: 56.25em) {
+  .testimonials-grid {
+    grid-template-columns: repeat(1, 1fr);
+    height: 250vh;
+  }
+}
+
+@media (max-width: 37.5em) {
+}
