@@ -6,7 +6,7 @@
 .top-img-container {
   display: block;
   background-image: url("../../assets/footer-background.svg");
-  background-size: 100%;
+  background-size: cover;
   height: 20rem;
   background-repeat: no-repeat;
   background-color: #fff;
@@ -75,4 +75,29 @@
 }
 
 .grid-col-5 {
+}
+
+@media (max-width: 75em) {
+}
+
+@media (max-width: 56.25em) {
+  .footer-grid {
+    display: block;
+  }
+
+  .logo-container img {
+    display: inline-block;
+    width: 30%;
+  }
+
+  .logo-container {
+    gap: 1.2rem;
+    margin-bottom: 2.4rem;
+  }
+}
+
+@media (max-width: 37.5em) {
+  .grid-links {
+    grid-template-columns: repeat(2, 1fr);
+  }
 }
