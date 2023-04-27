@@ -17,7 +17,7 @@
 @media (max-width: 75em) {
   .testimonials-grid {
     grid-template-columns: repeat(2, 1fr);
-    height: 100vh;
+    height: 170vh;
   }
 }
 

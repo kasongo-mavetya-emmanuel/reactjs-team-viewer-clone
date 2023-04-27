@@ -3,6 +3,8 @@ import { FaAngleDown } from "react-icons/fa";
 import { IconContext } from "react-icons";
 import classes from "./NavigationBar.module.css";
 import Container from "../UI/Container";
+import { FaPhoneAlt } from "react-icons/fa";
+import { TfiMenu } from "react-icons/tfi";
 
 const NavigationBar = () => {
   return (
@@ -93,12 +95,22 @@ const NavigationBar = () => {
               </ul>
             </IconContext.Provider>
           </nav>
-          <button>
+          <button className={classes["contact-sale-button"]}>
             <div className={classes["button-content"]}>
               <span className={classes.text}>Talk To Sales</span>{" "}
               <span className={classes.arrow}>&rarr;</span>
             </div>
           </button>
+
+          {/* table cta */}
+          <div className={classes["cta-table"]}>
+            <button>
+              <FaPhoneAlt size={"2rem"} />
+            </button>
+            <button>
+              <TfiMenu size={"2.4rem"} />
+            </button>
+          </div>
         </div>
       </Container>
     </header>

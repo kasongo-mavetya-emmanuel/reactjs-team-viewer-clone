@@ -66,3 +66,34 @@ button:hover .arrow {
 header {
   padding: 2rem;
 }
+
+.cta-table {
+  display: none;
+}
+.cta-table button {
+  border: none;
+  background-color: none;
+  padding: 0 1.6rem;
+}
+
+@media (max-width: 75em) {
+}
+
+@media (max-width: 56.25em) {
+  .main-nav {
+    display: none;
+  }
+  .cta-table {
+    display: block;
+  }
+
+  .contact-sale-button {
+    display: none;
+  }
+  .header {
+    padding: 0;
+  }
+}
+
+@media (max-width: 37.5em) {
+}

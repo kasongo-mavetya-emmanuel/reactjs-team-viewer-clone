@@ -9,6 +9,7 @@ const TestimonialItem = (props) => {
         style={{
           backgroundImage: `url( ${props.source})`,
           backgroundSize: "cover",
+          backgroundRepeat: "no-repeat",
         }}
         className={classes["img-container"]}
       >
