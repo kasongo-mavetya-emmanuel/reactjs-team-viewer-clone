@@ -6,7 +6,7 @@ import Container from "../UI/Container";
 import { FaPhoneAlt } from "react-icons/fa";
 import { TfiMenu } from "react-icons/tfi";
 
-const NavigationBar = () => {
+const NavigationBar = (props) => {
   return (
     <header>
       <Container>
@@ -107,7 +107,7 @@ const NavigationBar = () => {
             <button>
               <FaPhoneAlt size={"2rem"} />
             </button>
-            <button>
+            <button onClick={props.onToggle}>
               <TfiMenu size={"2.4rem"} />
             </button>
           </div>
