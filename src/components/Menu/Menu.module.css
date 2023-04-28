@@ -1,0 +1,40 @@
+.menu-container {
+  height: 100vh;
+  font-size: 2rem;
+}
+
+.nav-list a {
+  text-decoration: none;
+  display: block;
+  font-size: 2rem;
+  padding: 2rem 0rem;
+  padding-left: 2.4rem;
+  border-bottom: 1px solid grey;
+}
+
+.nav-list li:first-child a {
+  border-top: 1px solid grey;
+}
+
+.nav-list li ul li {
+  border-bottom: 1px solid grey;
+  padding: 2rem 0rem;
+}
+.nav-list li ul {
+  display: block;
+  list-style: none;
+}
+
+.nav-list li ul li {
+  padding: 2.4rem auto;
+}
+
+.nav-list li ul li a {
+  border: none !important;
+  padding: 0rem 0rem !important;
+  padding-left: 3.6rem !important;
+}
+
+.boutton-section {
+  text-align: center;
+}

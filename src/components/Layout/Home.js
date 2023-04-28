@@ -13,6 +13,7 @@ import Testimonials from "../Testimanials/Testimonials";
 import Patners from "../Patners/Patners";
 import Contact from "../Contact/Contact";
 import Footer from "../Footer/Footer";
+import Menu from "../Menu/Menu";
 
 const Home = () => {
   const [isMenu, toggleMenu] = useState(false);
@@ -23,7 +24,7 @@ const Home = () => {
     <div>
       <NavigationBar onToggle={toggle} />
       {isMenu ? (
-        <div />
+        <Menu />
       ) : (
         <div>
           <Hero />
