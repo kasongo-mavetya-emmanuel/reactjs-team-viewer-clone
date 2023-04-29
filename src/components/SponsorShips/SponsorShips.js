@@ -52,7 +52,7 @@ const SponsorShips = () => {
           }}
           className={classes["sponsor-header1"]}
         >
-          <img src={machester}></img>
+          <img src={machester} alt="three matchester players together"></img>
           <H2Title
             title={
               "Bringing you closer to Manchester United with Next-Gen Technology"
@@ -72,7 +72,7 @@ const SponsorShips = () => {
 
       <figure className={classes["sponsor-two"]}>
         <div className={classes["sponsor-header2"]}>
-          <img src={mercedes}></img>
+          <img src={mercedes} alt="F1 mercedes car"></img>
           <H2Title
             title={
               "Boosting Team Performance in the World's Fastest Laboratory"

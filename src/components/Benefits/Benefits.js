@@ -1,4 +1,4 @@
-import React, { useState, useRef } from "react";
+import React from "react";
 import manImg from "../../assets/benefits/man-providing-remote-support.jpg";
 import mobileImg from "../../assets/benefits/product-teamviewer-mobile-device-support.jpg";
 import BenefitItem from "./BenefitItem";
@@ -25,12 +25,12 @@ const Benefits = () => {
             }`}
           >
             <h2>One product. Any device. Endless uses.</h2>
-            <a href="#">Explore more &rarr;</a>
+            <a href="/#">Explore more &rarr;</a>
             <div className={classes["imgs-section"]}>
-              <img src={womImg} />
-              {ben1InView && <img src={womImg} />}
-              {ben2InView && <img src={manImg} />}
-              {ben3InView && <img src={mobileImg} />}
+              <img src={womImg} alt="woman picture" />
+              {ben1InView && <img src={womImg} alt="women picture" />}
+              {ben2InView && <img src={manImg} alt="man picture" />}
+              {ben3InView && <img src={mobileImg} alt="phone in the picture" />}
             </div>
           </div>
           <div className={classes["right-side-grid"]}>
@@ -68,7 +68,7 @@ const Benefits = () => {
         {/* ===================table mobile layout =========================*/}
         <div className={classes["tablet-benefits"]}>
           <h2>One product. Any device. Endless uses.</h2>
-          <a href="#">Explore more &rarr;</a>
+          <a href="/#">Explore more &rarr;</a>
           <div className={classes["benfits-container"]}>
             <ul>
               <BenefitItem

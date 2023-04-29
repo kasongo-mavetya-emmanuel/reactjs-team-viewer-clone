@@ -1,9 +1,9 @@
 import React from "react";
-import { AiTwotoneStar, AiOutlineStar, FaStarHalf } from "react-icons/ai";
+import { AiTwotoneStar } from "react-icons/ai";
 import classes from "./ReviewItem.module.css";
 
 const ReviewItem = (props) => {
-  const rating = props.rating;
+  // const rating = props.rating;
   return (
     <div className={classes["review-container"]}>
       <div className={classes["icon-container"]}>{props.logo}</div>

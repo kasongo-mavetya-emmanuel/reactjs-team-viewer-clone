@@ -18,7 +18,7 @@ const Footer = () => {
         <Container>
           <div className={classes["footer-grid"]}>
             <div className={classes["logo-container"]}>
-              <img src={lightTeamViewerLogo} />
+              <img src={lightTeamViewerLogo} alt="team viewer clone" />
               <LinkButton
                 text={
                   <>

@@ -81,81 +81,81 @@ const NavigationBar = (props) => {
             >
               <ul className={`${classes["main-nav-list"]}`}>
                 <li>
-                  <a>
+                  <a href="/">
                     {" "}
                     Products & solution <FaAngleDown />
                   </a>
 
                   <ul>
                     <li>
-                      <a>TeamViewer Remote</a>
+                      <a href>TeamViewer Remote</a>
                     </li>
                     <li>
-                      <a>TeamViewer Frontline</a>
+                      <a href>TeamViewer Frontline</a>
                     </li>
                     <li>
-                      <a>Automotive</a>
+                      <a href>Automotive</a>
                     </li>
                     <li>
-                      <a>Field Service</a>
+                      <a href>Field Service</a>
                     </li>
                     <li>
-                      <a>Food and Beverage</a>
+                      <a href>Food and Beverage</a>
                     </li>
                     <li>
-                      <a>Retail</a>
+                      <a href>Retail</a>
                     </li>
                     <li>
-                      <a>Third-Party Logistics</a>
+                      <a href>Third-Party Logistics</a>
                     </li>
                   </ul>
                 </li>
                 <li>
-                  <a>
+                  <a href>
                     {" "}
                     Resources <FaAngleDown />
                   </a>
                   <ul>
                     <li>
-                      <a>Success Stories</a>
+                      <a href>Success Stories</a>
                     </li>
                     <li>
-                      <a>Events & Webinars</a>
+                      <a href>Events & Webinars</a>
                     </li>
                     <li>
-                      <a>News & Insights</a>
+                      <a href>News & Insights</a>
                     </li>
                     <li>
-                      <a>Trust Center</a>
+                      <a href>Trust Center</a>
                     </li>
                     <li>
-                      <a>Glossary</a>
+                      <a href>Glossary</a>
                     </li>
                   </ul>
                 </li>
                 <li>
-                  <a>
+                  <a href>
                     {" "}
                     Patner <FaAngleDown />
                   </a>
 
                   <ul>
                     <li>
-                      <a>Become a Partner</a>
+                      <a href>Become a Partner</a>
                     </li>
                     <li>
-                      <a>Find a Partner</a>
+                      <a href>Find a Partner</a>
                     </li>
                     <li>
-                      <a>Existing Partner Login</a>
+                      <a href>Existing Partner Login</a>
                     </li>
                     <li>
-                      <a>Integration Partners</a>
+                      <a href>Integration Partners</a>
                     </li>
                   </ul>
                 </li>
                 <li>
-                  <a>
+                  <a href>
                     Pricing <FaAngleDown />
                   </a>
                 </li>

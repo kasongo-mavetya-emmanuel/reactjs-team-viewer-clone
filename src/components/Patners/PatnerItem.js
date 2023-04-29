@@ -8,7 +8,7 @@ const PatnerItem = (props) => {
     <div className={classes["patner-item"]}>
       <div className={classes["patner-flex-container"]}>
         <div>
-          <img src={props.icon} />
+          <img src={props.icon} alt="team viewer" />
           <H3Title title={props.title} color={"rgba(0, 0, 0, 0.6)"} />
           <p>{props.description}</p>
         </div>

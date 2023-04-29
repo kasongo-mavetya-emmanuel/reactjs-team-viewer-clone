@@ -9,7 +9,7 @@ const BenefitItem = React.forwardRef((props, ref) => {
         <h4>{props.subTitle}</h4>
         <p>{props.description}</p>
 
-        {props.source && <img src={props.source} />}
+        {props.source && <img src={props.source} alt="check icon" />}
       </div>
     </li>
   );

@@ -1,4 +1,4 @@
-import React, { useRef } from "react";
+import React from "react";
 import FeatureItem from "./FeatureItem";
 import { AiFillCheckCircle } from "react-icons/ai";
 import classes from "./Features.module.css";

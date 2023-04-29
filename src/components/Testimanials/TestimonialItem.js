@@ -14,7 +14,7 @@ const TestimonialItem = (props) => {
         className={classes["img-container"]}
       >
         <div className={classes["icon-container"]}>
-          <img src={props.icon} />
+          <img src={props.icon} alt="enterprise icon" />
         </div>
         <div className={classes["testimonial-action"]}>
           <div className={classes["arrow-button"]}>

@@ -12,6 +12,10 @@
   width: 100%;
 }
 
+.grid-text-section {
+  text-align: start !important;
+}
+
 h1 {
   font-size: 5.6rem;
   line-height: 1.3;

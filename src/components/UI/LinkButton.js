@@ -6,7 +6,7 @@ const LinkButton = (props) => {
     <a
       style={{ color: `${props.color}` }}
       className={classes["link-button"]}
-      href="#"
+      href="/#"
     >
       {props.text}
     </a>

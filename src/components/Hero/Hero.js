@@ -8,7 +8,7 @@ function Hero() {
     <section className={classes["hero-section-container"]}>
       <Container>
         <div className={classes["hero-flex-container"]}>
-          <div>
+          <div className={classes["grid-text-section"]}>
             <h1>
               The world’s most trusted remote access, control and support
               software
@@ -16,11 +16,11 @@ function Hero() {
             <button className={classes["download-button"]}>
               &darr; Download for free
             </button>
-            <a href="#">Privacy Policy</a>
+            <a href="/#">Privacy Policy</a>
             <p className={classes["trial"]}>
               Want to try TeamViewer for your business?
               <br />
-              <a href="#">Get a free business trial</a>
+              <a href="/#">Get a free business trial</a>
             </p>
           </div>
           <div>
