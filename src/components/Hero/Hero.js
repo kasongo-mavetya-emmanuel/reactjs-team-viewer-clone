@@ -13,9 +13,11 @@ function Hero() {
               The world’s most trusted remote access, control and support
               software
             </h1>
-            <button className={classes["download-button"]}>
-              &darr; Download for free
-            </button>
+            <div>
+              <button className={classes["download-button"]}>
+                &darr; Download for free
+              </button>
+            </div>
             <a href="/#">Privacy Policy</a>
             <p className={classes["trial"]}>
               Want to try TeamViewer for your business?

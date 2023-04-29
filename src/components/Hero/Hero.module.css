@@ -12,10 +12,6 @@
   width: 100%;
 }
 
-.grid-text-section {
-  text-align: start !important;
-}
-
 h1 {
   font-size: 5.6rem;
   line-height: 1.3;
@@ -25,9 +21,9 @@ h1 {
 }
 
 .download-button {
-  display: block;
   background-color: #010123;
   color: #fff;
+  margin-top: 0;
   margin-bottom: 1.6rem;
 }
 
