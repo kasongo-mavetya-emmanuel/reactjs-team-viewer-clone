@@ -12,6 +12,43 @@
   font-size: 1.6rem;
   text-align: center;
   margin-left: 1.6rem;
+  position: relative;
+}
+
+.main-nav-list li a {
+  cursor: pointer;
+}
+
+.main-nav-list li ul {
+  position: absolute;
+  z-index: 10;
+  opacity: 0;
+  transition: all 0.4s ease-out;
+  padding: 2.4rem 0rem;
+  width: 15vw;
+  text-align: center;
+}
+
+.main-nav-list li a:hover + ul {
+  background-color: white;
+  opacity: 1;
+  transform: translateX(-20%);
+  box-shadow: 0rem 1.2rem 2.4rem rgba(0, 0, 0, 0.06);
+  display: block;
+}
+
+.main-nav-list li ul:hover {
+  background-color: white;
+  opacity: 1;
+  transform: translateX(-20%);
+  box-shadow: 0rem 1.2rem 2.4rem rgba(0, 0, 0, 0.06);
+  display: block;
+}
+
+.main-nav-list li ul li {
+  display: block;
+  text-align: center;
+  padding: 1.2rem 0rem;
 }
 
 .main-nav {
@@ -63,9 +100,9 @@ button:hover .arrow {
   transform: translateX(60%);
 }
 
-header {
+/* header {
   padding: 2rem;
-}
+} */
 
 .cta-table {
   display: none;

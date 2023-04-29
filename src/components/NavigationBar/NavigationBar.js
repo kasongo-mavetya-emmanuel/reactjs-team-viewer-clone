@@ -81,16 +81,83 @@ const NavigationBar = (props) => {
             >
               <ul className={`${classes["main-nav-list"]}`}>
                 <li>
-                  Products & solution <FaAngleDown />
+                  <a>
+                    {" "}
+                    Products & solution <FaAngleDown />
+                  </a>
+
+                  <ul>
+                    <li>
+                      <a>TeamViewer Remote</a>
+                    </li>
+                    <li>
+                      <a>TeamViewer Frontline</a>
+                    </li>
+                    <li>
+                      <a>Automotive</a>
+                    </li>
+                    <li>
+                      <a>Field Service</a>
+                    </li>
+                    <li>
+                      <a>Food and Beverage</a>
+                    </li>
+                    <li>
+                      <a>Retail</a>
+                    </li>
+                    <li>
+                      <a>Third-Party Logistics</a>
+                    </li>
+                  </ul>
                 </li>
                 <li>
-                  Resources <FaAngleDown />
+                  <a>
+                    {" "}
+                    Resources <FaAngleDown />
+                  </a>
+                  <ul>
+                    <li>
+                      <a>Success Stories</a>
+                    </li>
+                    <li>
+                      <a>Events & Webinars</a>
+                    </li>
+                    <li>
+                      <a>News & Insights</a>
+                    </li>
+                    <li>
+                      <a>Trust Center</a>
+                    </li>
+                    <li>
+                      <a>Glossary</a>
+                    </li>
+                  </ul>
                 </li>
                 <li>
-                  Patner <FaAngleDown />
+                  <a>
+                    {" "}
+                    Patner <FaAngleDown />
+                  </a>
+
+                  <ul>
+                    <li>
+                      <a>Become a Partner</a>
+                    </li>
+                    <li>
+                      <a>Find a Partner</a>
+                    </li>
+                    <li>
+                      <a>Existing Partner Login</a>
+                    </li>
+                    <li>
+                      <a>Integration Partners</a>
+                    </li>
+                  </ul>
                 </li>
                 <li>
-                  Pricing <FaAngleDown />
+                  <a>
+                    Pricing <FaAngleDown />
+                  </a>
                 </li>
               </ul>
             </IconContext.Provider>
