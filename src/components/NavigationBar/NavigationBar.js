@@ -81,7 +81,7 @@ const NavigationBar = (props) => {
             >
               <ul className={`${classes["main-nav-list"]}`}>
                 <li>
-                  <a href="/">
+                  <a href>
                     {" "}
                     Products & solution <FaAngleDown />
                   </a>

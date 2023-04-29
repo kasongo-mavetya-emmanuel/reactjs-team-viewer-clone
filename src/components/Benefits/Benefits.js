@@ -27,10 +27,10 @@ const Benefits = () => {
             <h2>One product. Any device. Endless uses.</h2>
             <a href="/#">Explore more &rarr;</a>
             <div className={classes["imgs-section"]}>
-              <img src={womImg} alt="woman picture" />
-              {ben1InView && <img src={womImg} alt="women picture" />}
-              {ben2InView && <img src={manImg} alt="man picture" />}
-              {ben3InView && <img src={mobileImg} alt="phone in the picture" />}
+              <img src={womImg} alt="woman using a pc" />
+              {ben1InView && <img src={womImg} alt="women using a pc" />}
+              {ben2InView && <img src={manImg} alt="man thinking" />}
+              {ben3InView && <img src={mobileImg} alt="phone in a hand" />}
             </div>
           </div>
           <div className={classes["right-side-grid"]}>
